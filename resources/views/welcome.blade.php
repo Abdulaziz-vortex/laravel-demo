@@ -21,6 +21,8 @@
 
     </section>
 
+
+    
     <form class="container mt-4" action="{{ route('news.create') }}" method="post">
         {{ csrf_field() }}
         <input type="text" class="form-control" placeholder="insert name" name="name">
