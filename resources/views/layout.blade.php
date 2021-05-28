@@ -7,6 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <title>@yield('title')</title>
 
+        @yield('styles')
         <!-- header section -->
         <header class="p-3 bg-dark text-white">
             <div class="container">
@@ -37,6 +38,9 @@
 
         @yield('content')
 
+
+        <!-- for scripts -->
+        @yield('js-scripts')
     </head>
     <body>
 

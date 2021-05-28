@@ -30,6 +30,7 @@
     </form>
 @endsection
 
-@section('script')
-    <script src=""></script> 
+@section('js-scripts')
+    <script src="main-slider.js"></script>
+    <script src="swiper.min.js"></script>
 @endsection
